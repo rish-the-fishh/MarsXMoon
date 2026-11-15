@@ -1,0 +1,47 @@
+/* ArtifactCard.css */
+.card-container {
+  width: 500px;
+  height: 750px;
+  perspective: 1500px; 
+  background-color: transparent;
+  user-select: none; /* Prevents text highlighting while dragging */
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform-style: preserve-3d;
+  /* The transition is now handled dynamically in JavaScript so we can pause it while dragging */
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; 
+  border-radius: 16px; 
+  border: 3px solid #40E0D0; 
+  background-color: rgba(10, 20, 30, 0.95);
+  box-shadow: 0 0 30px rgba(64, 224, 208, 0.5); 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  padding: 40px; 
+  box-sizing: border-box;
+  color: white;
+  text-align: left;
+}
+
+/* Grabbing cursors for the 3D physics */
+.is-grabbable {
+  cursor: grab;
+}
+.is-dragging {
+  cursor: grabbing !important;
+}
