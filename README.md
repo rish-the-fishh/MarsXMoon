@@ -68,8 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### Credits
 
 https://somethingchans.fandom.com/wiki/Moon-chan
+
 https://somethingchans.fandom.com/wiki/Mars-chan
+
 https://freetouse.com/music/epic-spectrum/morning-light
+
 https://www.youtube.com/watch?v=VeFzYPKbz1g
 
 ### `npm run build` fails to minify
