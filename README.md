@@ -65,6 +65,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### Credits
+
+https://somethingchans.fandom.com/wiki/Moon-chan
+https://somethingchans.fandom.com/wiki/Mars-chan
+https://freetouse.com/music/epic-spectrum/morning-light
+https://www.youtube.com/watch?v=VeFzYPKbz1g
+
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
